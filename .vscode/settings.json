@@ -4,5 +4,21 @@
     "editor.tabSize": 2
   },
   "editor.formatOnSave": true,
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "conventionalCommits.scopes": [
+    "api",
+    "assets",
+    "build",
+    "components",
+    "configs",
+    "constants",
+    "helpers",
+    "hooks",
+    "pages",
+    "redux",
+    "router",
+    "styles",
+    "templates",
+    "types"
+  ]
 }
