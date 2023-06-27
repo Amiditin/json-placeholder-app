@@ -1,16 +1,9 @@
 @import '/src/shared/scss/_variables.scss';
+@import '/src/shared/scss/_mixins.scss';
+
 
 .notFound {
-  position: relative;
   height: 100%;
-}
-
-.box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   max-width: 350px;
-  height: 540px;
   margin: auto;
 }

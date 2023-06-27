@@ -17,6 +17,18 @@ export const routes = {
     path: '*',
     pageTitle: '404',
   },
+  posts: {
+    path: '/posts',
+    pageTitle: 'Посты',
+  },
+  albums: {
+    path: '/albums',
+    pageTitle: 'Фото',
+  },
+  todos: {
+    path: '/todos',
+    pageTitle: 'Задачи',
+  },
 };
 
 export type TRoutes = Record<keyof typeof routes, IRoute>;

@@ -1,0 +1,43 @@
+@import '/src/shared/scss/_variables.scss';
+@import '/src/shared/scss/_mixins.scss';
+
+$header-height: 64px;
+
+.container {
+  width: 100%;
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.header {
+  height: $header-height;
+
+  @include media-breakpoint-down(sm) {
+    padding: 0 35px;
+  }
+
+  @include media-breakpoint-down(xs) {
+    padding: 0 15px;
+  }
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 50px;
+  min-height: calc(100vh - $header-height);
+
+  @include media-breakpoint-down(sm) {
+    margin: 18px 35px;
+  }
+
+  @include media-breakpoint-down(xs) {
+    margin: 12px 15px;
+  }
+
+  .container {
+    background-color: white;
+    padding: 24px 16px;
+  }
+}
